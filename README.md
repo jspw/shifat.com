@@ -1,1 +1,0 @@
-# shifat.com
