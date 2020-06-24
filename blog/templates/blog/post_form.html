@@ -1,22 +1,27 @@
-{% extends 'blog/base.html' %}
+{% extends 'blog/base.html' %} {% block content %}
 
-{% block content %}
+<h1>
+  New Post
+</h1>
+<form class="form-post" method="POST">
+  {% csrf_token %} {{form.as_p}}
 
-    <h1>
-        New Post
-    </h1>
-    <form class="form-post" method="POST">
+  <button type="submit" class="save btn btn-default">Save</button>
+</form>
 
-        {% csrf_token %}
+<script>
+  var editor = new MediumEditor(".editable");
+</script>
 
-        {{form.as_p}}
+<script type="text/javascript">
+  $(function () {
+    var editor = editormd("name", {
+      // width: "100%",
+      // height: "100%",
+      // markdown: "xxxx",     // dynamic set Markdown text
+      path: "editor.md/lib/", // Autoload modules mode, codemirror, marked... dependents libs path
+    });
+  });
+</script>
 
-        <button type="submit" class="save btn btn-default">Save</button>
-
-    </form>
-
-    <script>
-        var editor = new MediumEditor('.editable');
-    </script>
-    
 {% endblock %}
