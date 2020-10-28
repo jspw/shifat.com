@@ -1,0 +1,1 @@
+/home/jspw/shifat.com/blog/__init__.py

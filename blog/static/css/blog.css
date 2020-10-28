@@ -3,37 +3,37 @@
     font-size: 1.5em;
     margin-bottom: 10px;
   }
-  
+
   .postdate{
     text-align: center;
   }
-  
+
   .posttitle{
     font-family: 'Russo One', sans-serif;
     font-size: 3em;
     text-align: center;
   }
-  
+
   .postcontent{
     font-family: 'Montserrat';
     font-size: 1.5em;
   }
-  
+
   .centerstage{
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .btn-comment{
     position: absolute;
     right: 0px;
   }
-  
+
   .bigbrand{
     font-size: 1.5em;
   }
-  
-  
+
+
   /*COLOR CHANGER*/
   /*Credit and Source: http://codepen.io/thapliyalshivam/pen/dvgXVO*/
   .loader{
@@ -41,26 +41,26 @@
     color: linear-gradient(45deg,#0f8,#08f);
     animation:hue 5000ms infinite linear;
   }
-  
+
   @keyframes spinify {
     0% {
       transform: translate(0px,0px);
-  
+
     }
     33% {
       transform: translate(0px,24px);
       border-radius:100%;
       width:10px;
       height:10px;
-  
+
     }
      66% {
       transform:translate(0px,-16px);
     }
-  
+
      88% {
       transform:translate(0px,4px);
-  
+
     }
     100% {
       transform:translate(0px,0px);
@@ -69,6 +69,110 @@
   @keyframes hue{
     0%{filter: hue-rotate(0deg);}
     100%{filter:hue-rotate(360deg);}
-  
+
   }
-  
+
+
+
+
+
+
+  /*
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+
+  slide bar style
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+
+  */
+
+
+
+
+
+
+  body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    /* margin: 0px; */
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    /* display: block; */
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .intro{
+    margin: auto;
+  }
+
+  .bio{
+    color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .extra{
+    margin-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+
+  }

@@ -14,7 +14,7 @@
             <a class="btn btn-default" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
         {% endif %}
 
-      <p class='postcontent' >{{ post.text|safe|linebreaksbr }}</p>
+      <div class=' well postcontent' >{{ post.text|safe|linebreaksbr }}</div>
 
 
       {% if user.is_authenticated %}
@@ -39,8 +39,8 @@
                   <a class="btn btn-default" href="{% url 'comment_approve' pk=comment.pk %}"><span class="glyphicon glyphicon-ok"></span></a>
               {% endif %}
 
-          <p>{{ comment.text|safe|linebreaks }}</p>
-          <p>Posted by: <strong>{{ comment.author }}</strong></p>
+          <div class=''>{{ comment.text|safe|linebreaks }}</div>
+          <p>Comment by: <strong>{{ comment.author }}</strong></p>
 
       {% endif %}
   {% empty %}

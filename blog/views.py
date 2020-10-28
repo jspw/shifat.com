@@ -4,7 +4,7 @@ from django.views.generic import (TemplateView,ListView,DetailView,CreateView,Up
 from blog.models import Post,Comment
 from django.contrib.auth.mixins import LoginRequiredMixin
 from blog.forms import PostForm,CommentForm
-from django.urls import reverse_lazy 
+from django.urls import reverse_lazy
 from django.utils import timezone
 # Create your views here.
 
@@ -81,11 +81,11 @@ def add_comment_to_post(request,pk):
 
     else :
         form = CommentForm()
-    
+
     return render(request,'blog/comment_form.html',{'form':form})
 
 
-@login_required        
+@login_required
 def comment_approve(request,pk):
     comment = get_object_or_404(Comment,pk=pk)
     comment.approve()
