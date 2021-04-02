@@ -38,7 +38,7 @@ const About = () => {
                 <Image
                   alt="mydp"
                   // src="/images/profile_pic.jpg"
-                  src='https://drive.google.com/file/d/1NVz2qV9UDHI9TsWGeZh8G3WQ6LIfYSQO/view?usp=sharing'
+                  src='https://lh3.googleusercontent.com/d/1NVz2qV9UDHI9TsWGeZh8G3WQ6LIfYSQO'
                   roundedCircle
                   thumbnail
                   width="200"
