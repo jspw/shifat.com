@@ -37,7 +37,8 @@ const About = () => {
               <div className="d-flex justify-content-center">
                 <Image
                   alt="mydp"
-                  src="/images/profile_pic.jpg"
+                  // src="/images/profile_pic.jpg"
+                  src='https://drive.google.com/file/d/1NVz2qV9UDHI9TsWGeZh8G3WQ6LIfYSQO/view?usp=sharing'
                   roundedCircle
                   thumbnail
                   width="200"
