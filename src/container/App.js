@@ -5,15 +5,19 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router>
-      <NavBar />
+    // <Router>
+    //   <NavBar />
 
-      <Switch>
-        <Route path="/">
-          <About />
-        </Route>
-      </Switch>
-    </Router>
+    //   <Switch>
+    //     <Route path="/">
+    //       <About />
+    //     </Route>
+    //   </Switch>
+    // </Router>
+    <>
+      <NavBar />
+      <About />
+    </>
   );
 };
 

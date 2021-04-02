@@ -35,10 +35,11 @@ const NavBar = () => {
   return (
     <Container fluid>
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
-        <Link to="/" className="navbar-brand">
+        {/* <Link to="/" className="navbar-brand"> */}
           {/* <img src="https://img.icons8.com/ios-glyphs/48/000000/user-male-circle.png" /> */}
-          <a href="/">S H I F A T</a>.com
-        </Link>
+          
+        {/* </Link> */}
+        <Nav.Link><a href="/">S H I F A T</a>.com</Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">{NavItems}</Navbar.Collapse>
       </Navbar>
