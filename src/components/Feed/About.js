@@ -17,9 +17,9 @@ const About = () => {
   const downloadResume = () => {
     html2canvas(document.querySelector("#resume")).then((canvas) => {
       document.body.appendChild(canvas); // if you want see your screenshot in body.
-      const imgData = canvas.toDataURL("image/png",1.0);
+      const imgData = canvas.toDataURL("image/png", 1.0);
       const pdf = new jsPDF();
-      pdf.addImage(imgData, "PNG",10, 10, 180, 150);
+      pdf.addImage(imgData, "PNG", 10, 10, 180, 150);
       pdf.save("mh shifat's resume.pdf");
     });
   };
@@ -38,7 +38,7 @@ const About = () => {
                 <Image
                   alt="mydp"
                   // src="/images/profile_pic.jpg"
-                  src='https://lh3.googleusercontent.com/d/1NVz2qV9UDHI9TsWGeZh8G3WQ6LIfYSQO'
+                  src="https://lh3.googleusercontent.com/d/1NVz2qV9UDHI9TsWGeZh8G3WQ6LIfYSQO"
                   roundedCircle
                   thumbnail
                   width="200"
@@ -189,7 +189,7 @@ const About = () => {
             <h4>Projects</h4>
             <ul>
               <li>
-                <a href="https://github.com/jspw/cp-tool">Paper </a> an Online
+                <a href="https://github.com/jspw/paper">Paper </a> an Online
                 Exam Management System (<b>6 ★ </b>)
               </li>
               <li>
@@ -202,7 +202,7 @@ const About = () => {
                   Ubuntu Launcher
                 </a>{" "}
                 An Android Launcher (having Ubuntu flavour) build with Flutter (
-                <b>98 ★ </b>)
+                <b>137 ★ </b>)
               </li>
               <li>
                 <a href="https://github.com/jspw/Visual-Codeforces">
@@ -247,13 +247,13 @@ const About = () => {
                 <a href="https://stackoverflow.com/users/9784839/5hifat">
                   Stackoverflow
                 </a>
-                <b>(Reputation : 376 | top 73%)</b>
+                <b> (Reputation : 376 | top 73%)</b>
               </li>
               <li>
                 <a href="https://askubuntu.com/users/844087/5hifat">
                   Ask Ubuntu
                 </a>
-                <b>(Reputation : 458 | top 42%)</b>
+                <b> (Reputation : 458 | top 42%)</b>
               </li>
             </ul>
           </div>
