@@ -202,7 +202,7 @@ const About = () => {
                   Ubuntu Launcher
                 </a>{" "}
                 An Android Launcher (having Ubuntu flavour) build with Flutter (
-                <b>137 ★ </b>)
+                <b>156 ★ </b>)
               </li>
               <li>
                 <a href="https://github.com/jspw/Visual-Codeforces">

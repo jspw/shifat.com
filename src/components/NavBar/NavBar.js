@@ -23,7 +23,10 @@ const NavBar = () => {
       <Nav.Link>Experiences</Nav.Link>
       <Nav.Link>Projects</Nav.Link>
       <Nav.Link>Articles</Nav.Link>
-      <Nav.Link onClick={downloadResume}>Resume</Nav.Link>
+      <Nav.Link 
+      // onClick={downloadResume}
+      href='https://drive.google.com/file/d/18Xr917dWRlhuuKTKHl8Ii9TdU7J3_Q0v/view?usp=sharing'
+      >Resume</Nav.Link>
       <Nav.Link>More</Nav.Link>
       {/* <Nav.Link>
         Visitors<Badge variant="success">5</Badge>
