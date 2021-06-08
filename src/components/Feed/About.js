@@ -195,32 +195,32 @@ const About = () => {
               <li>
                 <a href="https://github.com/jspw/cp-tool">cp-tool </a>an auto
                 generator for solved problems at different online judges (
-                <b>14 ★ </b>)
+                <b>18 ★ </b>)
               </li>
               <li>
                 <a href="https://github.com/jspw/Ubuntu-Launcher">
                   Ubuntu Launcher
                 </a>{" "}
                 An Android Launcher (having Ubuntu flavour) build with Flutter (
-                <b>156 ★ </b>)
+                <b>171 ★ </b>)
               </li>
               <li>
                 <a href="https://github.com/jspw/Visual-Codeforces">
                   Visual Codeforces{" "}
                 </a>{" "}
                 This is an Android Application based on Visualizing
-                Codeforces(An online Judge) (<b>8 ★ </b>)
+                Codeforces(An online Judge) (<b>9 ★ </b>)
               </li>
               <li>
                 <a href="https://github.com/jspw/VS-Code-Config">
                   VS-Code-Config
                 </a>{" "}
                 VS Code Setting (Live input output) to make competitive
-                programming easy and program analysis (<b>32 ★ </b>)
+                programming easy and program analysis (<b>35 ★ </b>)
               </li>
               <li>
                 <a href="https://github.com/jspw/codenerd">CodeNerd </a> A
-                Online Educational Platform (<b>8 ★ </b>)
+                Online Educational Platform (<b>9 ★ </b>)
               </li>
             </ul>
           </div>
@@ -247,7 +247,7 @@ const About = () => {
                 <a href="https://stackoverflow.com/users/9784839/5hifat">
                   Stackoverflow
                 </a>
-                <b> (Reputation : 376 | top 73%)</b>
+                <b> (Reputation : 388 | top 54%)</b>
               </li>
               <li>
                 <a href="https://askubuntu.com/users/844087/5hifat">
