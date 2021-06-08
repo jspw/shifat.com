@@ -8,15 +8,7 @@ const App = () => {
   return (
     <Router>
       <NavBar />
-      <Switch>
-        <Route exact path="/">
-          <About />
-        </Route>
-
-        {/* <Route exact path="/movie">
-          <Movie />
-        </Route> */}
-      </Switch>
+      <About />
     </Router>
   );
 };
