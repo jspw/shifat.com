@@ -13,9 +13,9 @@ const App = () => {
           <About />
         </Route>
 
-        <Route exact path="/movie">
+        {/* <Route exact path="/movie">
           <Movie />
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );
